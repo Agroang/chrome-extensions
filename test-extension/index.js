@@ -9,3 +9,6 @@
 
 // Reading right now:
 // https://developer.chrome.com/docs/extensions/mv3/intro/mv3-overview/
+
+// Geolocation tutorial recommended by google/dev page:
+// https://www.html5rocks.com/en/tutorials/geolocation/trip_meter/
