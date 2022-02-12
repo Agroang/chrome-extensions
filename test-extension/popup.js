@@ -16,11 +16,11 @@ changeColor.addEventListener("click", async () => {
 
 // The body of this function will be executed as a content script inside the
 // current page
-function setPageBackgroundColor() {
-  chrome.storage.sync.get("color", ({ color }) => {
-    document.body.style.backgroundColor = color;
-  });
-}
+// function setPageBackgroundColor() {
+//   chrome.storage.sync.get("color", ({ color }) => {
+//     document.body.style.backgroundColor = color;
+//   });
+// }
 
 // testing for geolocation
 
@@ -46,3 +46,14 @@ function error(err) {
 }
 
 navigator.geolocation.getCurrentPosition(success, error, options);
+
+// my test, above is from mozilla
+
+// function getLoc() {
+//   navigator.geolocation.getCurrentPosition(success, error, options);
+// }
+
+function setPageBackgroundColor(success, error, options) {
+  navigator.geolocation.getCurrentPosition(success, error, options);
+}
+// need to pass the actual functions, getting close
