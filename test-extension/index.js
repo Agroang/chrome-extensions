@@ -12,3 +12,6 @@
 
 // Geolocation tutorial recommended by google/dev page:
 // https://www.html5rocks.com/en/tutorials/geolocation/trip_meter/
+
+// https://developer.chrome.com/docs/extensions/mv3/declare_permissions/
+// from the above I got the geolocation permission, this is nice! :D
